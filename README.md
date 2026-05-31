@@ -12,10 +12,11 @@ You must add functions to the <b>3Dcpp.h</b>
 #include <3dcpp.h>
 
 int main() {
-int scene = SceneCreate();
-int camera = CameraCreate();
-int models = GetModels(objectType);
-int moreThings = all();
+// 3Dcpp
+auto scene = SceneCreate();
+auto camera = CameraCreate();
+auto models = GetModels(objectType);
+auto moreThings = all();
 scene.Create();
 camera.CameraMakerPosition();
 models.TypeModel(cube, pyramid, sphere);
