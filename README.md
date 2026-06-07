@@ -24,5 +24,4 @@ moreThings.RunPackage();
 return 0;
 }
 ```
-> [!CAUTION]
-This is a console based thing.
+Already built but you can add fun features or etc.
